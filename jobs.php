@@ -1,10 +1,9 @@
 <?php
-
-use App\Models\{Job, Project};
-
+// use App\Models\Job;
+// use App\Models\Project;
 
 $jobs = Job::all();
-$project1 = new Project ('Project 1', 'Description 1');
+$project1 = new Project (['Project 1', 'Description 1']);
 $projects =[
 $project1
 ];

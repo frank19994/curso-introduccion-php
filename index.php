@@ -1,7 +1,7 @@
 <?php
-use App\Models\Job;
+require 'public/index.php';
 
-require_once('jobs.php');
+require 'jobs.php';
 
 $name = 'Juan Francisco Enrique Aleman Ortega';
 $limitMonths = 2000;
